@@ -1,4 +1,2 @@
 # darwin
-
-A quick description of darwin.
-# strapi-dawrin
+Creating a new API using Strapi framework

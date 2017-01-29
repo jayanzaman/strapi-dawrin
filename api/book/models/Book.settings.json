@@ -1,0 +1,29 @@
+{
+  "identity": "book",
+  "connection": "",
+  "displayedAttribute": "",
+  "schema": true,
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "year": {
+      "type": "integer"
+    },
+    "createdBy": {
+      "model": "user"
+    },
+    "updatedBy": {
+      "model": "user"
+    },
+    "contributors": {
+      "collection": "user",
+      "via": "books"
+    }
+  },
+  "autoCreatedAt": true,
+  "autoUpdatedAt": true
+}
